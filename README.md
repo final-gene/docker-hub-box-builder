@@ -15,7 +15,7 @@ docker run \
     --interactive \
     --tty \
     --volume "$(pwd)":/app \
-    finalgene/box-builder install
+    finalgene/box-builder build
 ```
 
 For further information take a look at the [box2 example application](https://github.com/box-project/box2-example).
