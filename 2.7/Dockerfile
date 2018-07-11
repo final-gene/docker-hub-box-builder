@@ -4,7 +4,9 @@ LABEL maintainer="frank.giesecke@final-gene.de"
 
 ENV BOX2_VERSION 2.7.5
 
-SHELL ["/bin/sh", "-o", "pipefail", "-c"]
+RUN apk add --no-cache --virtual=.build-deps bash
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN apk add --no-cache --virtual=.persitent \
         curl=7.60.0-r1 \
@@ -24,6 +26,8 @@ RUN curl -LSs \
         -o /usr/local/bin/box \
         "https://github.com/box-project/box2/releases/download/${BOX2_VERSION}/box-${BOX2_VERSION}.phar" \
     && chmod a+x /usr/local/bin/box
+
+RUN apk del .build-deps
 
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
