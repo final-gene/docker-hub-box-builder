@@ -4,6 +4,8 @@ LABEL maintainer="frank.giesecke@final-gene.de"
 
 ENV BOX2_VERSION 2.7.5
 
+SHELL ["/bin/sh", "-o", "pipefail", "-c"]
+
 RUN apk add --no-cache --virtual=.persitent \
         curl=7.60.0-r1 \
         git=2.15.2-r0 \
