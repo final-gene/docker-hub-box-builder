@@ -1,5 +1,5 @@
 # Box Builder
-[![CircleCI](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4cf4be3e6d6540c0a1c0d72a239ae01b)](https://www.codacy.com/app/final-gene/docker-hub-box-builder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-box-builder&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/98beb357e84742e1b297de42b3bd6d57)](https://www.codacy.com/app/final-gene/docker-hub-box-builder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-box-builder&amp;utm_campaign=Badge_Grade)
 
 This is a image to run [box-builder (box2)](https://github.com/box-project/box2).
 
