@@ -9,11 +9,11 @@ RUN apk add --no-cache --virtual=.build-deps bash
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN apk add --no-cache --virtual=.persitent \
-        curl=7.60.0-r1 \
+        curl=7.61.0-r0 \
         git=2.15.2-r0 \
         subversion=1.9.7-r0 \
         openssh=7.5_p1-r8 \
-        openssl=1.0.2o-r0 \
+        openssl=1.0.2o-r1 \
         mercurial=4.4.1-r0
 
 RUN { \
