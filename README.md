@@ -3,9 +3,6 @@
 
 This is a image to run [box-builder (box2)](https://github.com/box-project/box2).
 
-## Supported tags and respective Dockerfile links
-* `2.7`, `latest` [(2.7/Dockerfile)](https://github.com/finalgene/docker-hub-box-builder/blob/master/2.7/Dockerfile)
-
 ## How to use this image
 Run the `box-builder` image:
 
