@@ -1,7 +1,7 @@
 # Box Builder
 [![CircleCI](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-box-builder/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/98beb357e84742e1b297de42b3bd6d57)](https://www.codacy.com/app/final-gene/docker-hub-box-builder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-box-builder&amp;utm_campaign=Badge_Grade)
 
-This is a image to run [box-builder (box2)](https://github.com/box-project/box2).
+This is a image to run [box-builder](https://github.com/box-project/box).
 
 ## How to use this image
 Run the `box-builder` image:
@@ -15,7 +15,7 @@ docker run \
     finalgene/box-builder build
 ```
 
-For further information take a look at the [box2 example application](https://github.com/box-project/box2-example).
+For further information take a look at the [box documentation](https://github.com/box-project/box).
 
 ## Quick reference
 * **Where to get help:**
