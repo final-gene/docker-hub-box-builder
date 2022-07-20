@@ -1,8 +1,8 @@
-FROM php:7.4-cli-alpine3.13
+FROM php:8.1.8-cli-alpine3.15
 
 LABEL maintainer="frank.giesecke@final-gene.de"
 
-ENV BOX_VERSION=3.12.2
+ENV BOX_VERSION=4.0.2
 
 # hadolint ignore=DL3018
 RUN apk add --no-cache --virtual=.persitent \
