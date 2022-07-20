@@ -1,4 +1,4 @@
-FROM php:8.0.13-cli-alpine3.13
+FROM php:8.1.8-cli-alpine3.15
 
 LABEL maintainer="frank.giesecke@final-gene.de"
 
