@@ -1,7 +1,7 @@
 # Box Builder
 [![Docker build and publish](https://github.com/final-gene/docker-hub-box-builder/actions/workflows/publish.yml/badge.svg)](https://github.com/final-gene/docker-hub-box-builder/actions/workflows/publish.yml)
 
-This is a image to run [box-builder](https://github.com/box-project/box).
+This is an image to run [box-builder](https://github.com/box-project/box).
 
 ## How to use this image
 Run the `box-builder` image:
